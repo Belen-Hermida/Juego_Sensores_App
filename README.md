@@ -1,16 +1,32 @@
-# sensores_app
+# 🐧 Tucán Adventure - Flutter Sensor Game
 
-A new Flutter project.
+¡Bienvenido a **Tucán Adventure**! Este es un juego interactivo desarrollado en Flutter donde controlas a un carismático tucán utilizando los **sensores de movimiento (acelerómetro)** de tu dispositivo móvil.
 
-## Getting Started
+## 📝 Descripción del Proyecto
+El objetivo del juego es guiar al tucán hacia la meta (el círculo con la bandera) evitando los obstáculos (estrellas) que aparecen aleatoriamente en la pantalla. 
 
-This project is a starting point for a Flutter application.
+Este proyecto fue creado para la materia de **Programación Móvil** (Octavo Semestre), enfocándose en la implementación de hardware y manejo de estados en tiempo real.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Características
+* **Control por Movimiento:** Uso del paquete `sensors_plus` para detectar la inclinación del teléfono.
+* **Generación Aleatoria:** Cada vez que alcanzas la meta, los obstáculos y el objetivo se reposicionan automáticamente.
+* **Detección de Colisiones:** Lógica matemática para determinar si el tucán toca un objeto o llega a la meta.
+* **Interfaz Adaptable:** Diseño minimalista con colores cálidos y assets personalizados.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tecnologías Utilizadas
+* **Lenguaje:** Dart
+* **Framework:** Flutter
+* **Plugins:** `sensors_plus` para el acelerómetro.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📲 Cómo Jugar
+1.  Instala el APK en tu dispositivo Android.
+2.  Sujeta el teléfono en posición horizontal o vertical.
+3.  **Inclina el dispositivo** hacia adelante, atrás, izquierda o derecha para mover al tucán.
+4.  ¡Llega al círculo negro para ganar puntos y generar un nuevo nivel!
+
+## 📂 Instalación para Desarrolladores
+Si quieres probar el código fuente:
+
+1. Clona este repositorio:
+   ```bash
+   git clone [https://github.com/tu-usuario/sensores_app.git](https://github.com/tu-usuario/sensores_app.git)
